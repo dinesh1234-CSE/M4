@@ -11,7 +11,7 @@ To write a C Program to perform the basic left shift operation for 44 integer nu
 5.	Stop the program.
 
 ## PROGRAM
-```
+```C
 #include <stdio.h>
 
 int main() {
@@ -63,7 +63,7 @@ Write a C Program to check whether the two numbers are equal or not using simple
 5.	Stop the program.
 
 ## PROGRAM
-```
+```C
 #include <stdio.h>
 
 int main() {
@@ -107,7 +107,7 @@ Write a C Program to convert the given string into lowercase.
 5.	Stop the program.
 
 ## PROGRAM
-```
+```C
 #include <stdio.h>
 #include <ctype.h> 
 
@@ -158,7 +158,7 @@ Write a C Program to count the total number of words in a given string using do 
 6.	Stop the program.
 
 ## PROGRAM
-```
+```C
 #include <stdio.h>
 #include <string.h>
 
@@ -223,7 +223,7 @@ Step 7: After the loop, check the value of flag:
 Step 8: End the program.
 
 ## PROGRAM
-```
+```C
 #include <stdio.h>
 
 int main() {
@@ -233,7 +233,7 @@ int main() {
     printf("Enter the first string: ");
     scanf("%[^\n]", c1);
     
-    getchar(); // to consume the leftover newline character
+    getchar(); 
 
     printf("Enter the second string: ");
     scanf("%s", c2);
